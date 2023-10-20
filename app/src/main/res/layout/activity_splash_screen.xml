@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDCD2E"
+    android:orientation="vertical"
+    tools:context=".splashScreen">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80sp"
+        android:padding="10sp"
+        android:id="@+id/ivsplashicon"
+        android:src="@drawable/splashicon"/>
+
+
+    <TextView
+        android:id="@+id/tvBULLSRENT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150sp"
+        android:text="@string/bull_s_rent"
+        android:textSize="70sp"
+        android:textAlignment="center"
+        android:textColor="#725D14"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+
+        android:text="@string/nation_wide_car_rental_app"/>
+
+    <!-- <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp" /> -->
+
+</LinearLayout>
